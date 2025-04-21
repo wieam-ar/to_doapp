@@ -1,0 +1,155 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff9f5;
+}
+.sidebar {
+    background-color: #fff;
+    border-right: 2px solid #ffe0ec;
+    width: 220px;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 4px 0 10px rgba(116, 96, 96, 0.05);
+}
+.sidebar h2 {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.sidebar .btn {
+    background: #ffa94d;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar li {
+    padding: 10px 15px;
+    margin: 8px 0;
+    background-color: #ffeede;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.sidebar .active {
+    background-color: #ffc98b;
+}
+.main {
+    margin-left: 240px;
+    padding: 40px 50px;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.greeting-box {
+    background: #ffffff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto 40px;
+    max-width: 1300px;
+}
+.greeting-box h1 {
+    font-size: 42px;
+    color: #ff7a00;
+    margin: 0;
+}
+.greeting-box p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 22px;
+}
+.user img {
+    height: 340px;
+    width: 340px;
+    margin-bottom: 0;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.logout-btn {
+    background: #ff6600;
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tasks {
+    width: 65%;
+}
+.tasks h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.task-list li {
+    background: #fff;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid #ffd1b3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.task-list input[type="checkbox"] {
+    transform: scale(1.2);
+}
+.active-task {
+    background-color: #ffe1ba;
+    font-weight: bold;
+    border-left: 6px solid #ffa94d;
+}
+.stats {
+    width: 30%;
+    text-align: center;
+}
+.stat-box {
+    background: #fcbf49;
+    color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+}
+.stat-box.active {
+    background: #ff924c;
+}
+.stat-box span {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 8px;
+}
+.user-name {
+    background: #f95fa3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.active:hover{
+    background-color: #ff7a00;
+}
+ul li:hover{
+    background-color: #ff7a00;
+}
+
+  
+  
