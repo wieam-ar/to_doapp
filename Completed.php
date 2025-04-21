@@ -12,7 +12,7 @@ $stmt = $pdo->prepare($query);
 $stmt->execute(['user_id' => $user['id']]);
 $tasks = $stmt->fetchAll();
 
-setlocale(LC_TIME, 'fr_FR.UTF-8');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
